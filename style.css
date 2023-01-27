@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+/* .wrapper {
+    min-height: 100%;
+    background-image: url(img/small.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+} */
+/* 
+свойста для фоновой картинки */
+
+/* .wrapper {
+    width: 1000px;
+    height: 800px;
+    border: 1px solid red;
+    /* background: url(/img/milk.png) no-repeat top 200px right 100px, url(/img/icecream.png) no-repeat center/600px pink; */
+/* background-image: linear-gradient(to right, red, green, blue); */
+/* background-image: linear-gradient(90deg, red, blue 100px, blue 300px, green 300px);
+} */
+
+/* .wrapper {
+    width: 1000px;
+    height: 600px;
+    border: 1px solid red;
+    background-image: linear-gradient(red 80%, blue 80%);
+} */
+
+.wrapper {
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 2px;
+}
+
+/* 25px/20px= 1,25em
+перевод в em необходим чтобы весь текст автоматом подгонял все параметры при изменении */
+
+/* rem - единица при которой размер шрифта не влияет на размер блок  */
+/* желательно все верстать в em чтобы все блоки при изменении масштаба менялись вместе с масштабом */
+
+.block {
+    height: 100px;
+    background-color: red;
+    width: 300px;
+    font-size: 40px;
+}
+
+/* если в % указать одно значение, то будет четкое разделение */
+
+/* blue 300px - координаты, указывают где закончится синий и начнетс ядругой
+green 300px - указывает когад нечнется зеленый */
+
+/* to right - справа
+to top right - сверху справа
+45deg - под углом 
+и т.д (указаываем направление градиента) */
+
+/* картинки вставляем в такой последовательности:
+1) - самый верхний слой
+10) - основнйо фон на который все накладывается  */
+
+/* чтобы двигать картинку вправо влево нужно указать
+в состовном свойстве например top 100px и right 100px */
+
+/* сайт для чтения CSS-градиент */
